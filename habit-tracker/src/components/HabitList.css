@@ -1,0 +1,16 @@
+/* src/components/HabitList.css */
+.habit-list {
+  display: flex;
+  flex-direction: column; /* Stack habits vertically */
+  gap: 15px; /* Space between each habit item */
+}
+
+.no-habits-message {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  padding: 20px;
+  border: 1px dashed #ccc; /* Dashed border for visual cue */
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Light background */
+}
