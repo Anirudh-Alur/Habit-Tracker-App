@@ -1,0 +1,36 @@
+/* src/App.css */
+body {
+  margin: 0;
+  background-color: #e0e0e0; /* Light grey background for the entire page */
+  display: flex;
+  justify-content: center; /* Center the app card horizontally */
+  align-items: flex-start; /* Align the app card to the top */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Take full width to allow centering of the card */
+  padding-top: 50px; /* Space from the top of the viewport */
+  padding-bottom: 50px; /* Add some padding at the bottom for longer lists */
+}
+
+.app-card {
+  background-color: white; /* White background for the main app container */
+  padding: 30px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 100%;
+  max-width: 600px; /* Max width to match the screenshot layout */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+h1 {
+  text-align: center;
+  color: #007bff; /* Blue color for the main title */
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 600; /* Slightly bolder */
+}
